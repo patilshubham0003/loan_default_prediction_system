@@ -8,6 +8,12 @@ from Print_feature import print_feature
 # encoders
 from encoders.encoders import (le_HasMortgage,le_HasDependents,le_HasCoSigner,ohe_education,ohe_MaritalStatus,ohe_EmploymentType,ohe_LoanPurpose)
 
+st.set_page_config(
+    page_title="Loan Default Prediction System",
+    page_icon="💰"
+)
+
+
 #title
 st.title("💰 Loan Default Prediction System")
 
